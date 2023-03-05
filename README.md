@@ -1,6 +1,6 @@
 # Advent of Code
 
-<insert fun intro about getting started with Advent of Code>
+\<insert fun intro about getting started with Advent of Code\>
 
 For this project I will be completing each year of Advent of Code with a different programming 
 language. This way I won't just program in the easiest to implement language, just doing the 
