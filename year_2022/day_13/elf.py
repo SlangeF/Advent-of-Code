@@ -38,9 +38,7 @@ def sort(list):
     unfinished = False
     for i in range(len(list[0:-1])):
         if compare(list[i],list[i+1]) != 1:
-            temp = list[i]
-            list[i] = list[i+1]
-            list[i+1] = temp
+            list[i], list[i+1] = list[i+1], list[i]
             unfinished = True
     return unfinished
 
